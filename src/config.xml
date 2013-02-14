@@ -1,0 +1,8 @@
+<widget xmlns="http://www.w3.org/ns/widgets">
+  <name>Hello world!</name>
+  <description>
+    My first webinos application
+  </description>
+  <content src="index.html" />
+  <feature name="http://webinos.org/api/webnotification" required="true" />
+</widget>
