@@ -4,5 +4,5 @@
     My first webinos application
   </description>
   <content src="index.html" />
-  <feature name="http://webinos.org/api/webnotification" required="true" />
+  <feature name="http://webinos.org/api/notifications" required="true" />
 </widget>
