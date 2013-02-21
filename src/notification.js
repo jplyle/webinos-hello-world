@@ -10,7 +10,7 @@ function serviceFound(service) {
 
 function findNotificationService() {
   webinos.discovery.findServices(
-    new ServiceType('http://webinos.org/api/webnotification'),
+    new ServiceType('http://webinos.org/api/notifications'),
     { onFound: serviceFound }
   );
 }
